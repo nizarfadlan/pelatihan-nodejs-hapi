@@ -1,0 +1,69 @@
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1522336572468-97b06e8ef143?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876');
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mask-hero {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+}
+
+.hero-content {
+  height: 100%;
+  width: 100%;
+}
+
+/* content restaurant */
+.list-restaurant {
+  margin-top: 5em;
+}
+
+.card {
+  border-radius: 15px;
+  transition: all .5s;
+}
+
+.card:hover {
+  box-shadow: 0 5px 35px rgba(0,0,0,0.2);
+}
+
+.card img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.card-body a {
+  color: #6C4AB6;
+  text-decoration: none;
+}
+
+.card-body a:hover {
+  text-decoration: underline;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+/* Footer */
+footer {
+  font-size: 14px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+/* Login */
+.form-login {
+  width: 100%;
+  max-width: 22rem;
+  padding: 0 1em;
+}
