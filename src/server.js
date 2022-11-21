@@ -7,12 +7,13 @@ const init = async () => {
     host: 'localhost',
   })
 
-  const plugin = [
+  const plugins = [
     require('@hapi/vision'),
     require('@hapi/inert')
   ]
+
   
-  await server.register(plugin)
+  await server.register(plugins)
 
   server.views({
     engines: {

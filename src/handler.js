@@ -1,7 +1,6 @@
 const { insertUserData, getAllUserData, getOneUserData, updateOneUserData, deleteOneUserData, checkUserID, checkUsername } = require('./controllers/user.controller')
 
 const { insertRestaurantData, getAllRestaurantData, getOneRestaurantData, updateOneRestaurantData, deleteOneRestaurantData, checkRestaurantID } = require('./controllers/restaurant.controller')
-const { response } = require('@hapi/hapi/lib/validation')
 
 /* API */
 

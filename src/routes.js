@@ -9,15 +9,6 @@ const routes = [
   },
   {
     method: 'GET',
-    path: '/public/{param*}',
-    handler: {
-      directory: {
-        path: path.normalize(__dirname + '/public')
-      }
-    }
-  },
-  {
-    method: 'GET',
     path: '/favorite',
     handler: favoriteHandler
   },
@@ -25,6 +16,15 @@ const routes = [
     method: 'GET',
     path: '/restaurant/{restaurantID}',
     handler: restaurantHandler
+  },
+  {
+    method: 'GET',
+    path: '/{param*}',
+    handler: {
+      directory: {
+        path: path.normalize(__dirname + '/public')
+      }
+    }
   },
   {
     method: 'GET',
